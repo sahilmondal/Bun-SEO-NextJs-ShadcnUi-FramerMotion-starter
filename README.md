@@ -1,17 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project boilerplate template. bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Tech Stack :
+
+1. Next.js
+2. Shadcn/ui
+3. Framer Motion
+   -- also included with basic SEO optimization like metadata and sitemaps
 
 ## Getting Started
 
-First, run the development server:
+First, install the necessary dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+bun install
+#or if  you wanna use npm :
+npm install
+
+```
+
+Then, run the development server:
+
+```bash
 bun dev
+# or
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
